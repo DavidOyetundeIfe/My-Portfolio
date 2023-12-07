@@ -2,12 +2,70 @@
     height: calc(100vh - 100px);
     overflow: hidden;
     background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+        
+    .textContainer{
 
+        h3{
+            color: rgb(80, 2, 80);
+            margin-bottom: 30px;
+            letter-spacing: 10px;
+        }
+        h1{
+            width: 480px;
+            font-size: 50px;
+            line-height: 50px;
+            
+        }
+        font-family: Tahoma;
+        margin-top: 150px;
+        margin-left: 150px;
+        text-decoration: none;
+       
+       
+        .buttons{
+            margin-top: 20px;
+            button{
+                padding: 10px 10px;
+                border-radius: 8px;
+                background-color: transparent;
+                color: white;
+                border-color: white;
+                margin-left: 10px;
+                border-width: 1px;
+                cursor: pointer;
+            }
+            .btn{
+                padding: 10px 10px;
+                border-radius: 8px;
+                background-color: white;
+                color:rgb(36, 0, 36);
+                margin-left: 10px;
+                border: none;
+                cursor: pointer;
+            }
+      
+        }
+
+    }
 
     .imageContainer{
         height: 100%;
         position: absolute;
         top: 0;
         right: 0;
+      
     }
+
+    
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 100px;
+        bottom: -2px;
+        white-space: nowrap;
+        width: 50%;
+        color: #ffffff09;
+        font-weight: bold;
+    }
+
 }

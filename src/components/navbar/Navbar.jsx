@@ -8,7 +8,7 @@ const Navbar = () => {
     return <div className="navbar">
         <Sidebar/>
         <div className="wrapper">
-            <motion.span initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} transition={{duration:0.5}}>DAVOYEIFE</motion.span>
+            <motion.span initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} transition={{duration:0.5}}>DAVOYEIFE DEV</motion.span>
             <a href="#" ><img src="./facebook.PNG" alt="facebook link"/></a>
             <a href="#" ><img src="./twitter.PNG" alt="twitter link"/></a>
             <a href="#" ><img src="./youtube.PNG" alt="youtube link"/></a>
