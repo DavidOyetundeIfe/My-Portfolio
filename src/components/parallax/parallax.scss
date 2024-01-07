@@ -11,27 +11,32 @@
   }
 
   .mountains{
-    background-image: url("../../../public/white.JPG");
+    background: linear-gradient(180deg,#111132, #0c0c1d );
+   // background-image: url("../../../public/white.JPG");
     background-size: cover;
     background-position: bottom;
     width: 100%;
     height: 100%;
     position: absolute;
+    z-index: 3;
+   
   }
   .planets{
-    background-image: url("../../../public/sun.PNG");
+    //background-image: url("../../../public/sun.PNG");
     background-size: cover;
     background-position: bottom;
     width: 50%;
     height: 100%;
     position: absolute;
+    z-index: 2;
   }
   .starts{
-    background-image: url("../../../public/moon.PNG");
+    //background-image: url("../../../public/moon.PNG");
     background-size: cover;
     background-position: bottom;
     width: 20%;
     height: 20%;
     position: absolute;
+    z-index: 1;
   }
 }

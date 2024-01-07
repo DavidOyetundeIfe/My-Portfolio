@@ -1,31 +1,35 @@
 .navbar{
-    height: 100px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(36, 20, 36);
+    position: fixed;
+    z-index: 10;
+    border-radius: 50px;
 
-    .wrapper{
-        max-width: 1366px;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: rgb(36, 20, 36);
-        height: 100%;
+    .side-bar{
+        flex-shrink: 0;
     }
-    span{
+    .title{
         font-weight: bold;
-        margin-right: 700px;
-        margin-left: 300px;
+        flex-shrink: 1;
     }
-    a{
+    .links{
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
+        flex-shrink: 0;
         margin-right: 10px;
+        justify-content: space-between;
     
         img{
+            margin-right: 10px;
             width: 18px;
             height: 18px;
-            justify-content: space-between;
             display: flex;
-
+            justify-content: space-between;
         }
     }
     

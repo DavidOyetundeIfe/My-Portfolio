@@ -33,23 +33,36 @@ const sliderVariants = {
     }
 }
 
+
 export default function Hero() {
   return (
     <div className="hero">
-        <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
-            <motion.h3 variants={textVariants}>DAVID OYETUNDE</motion.h3>
-            <motion.h1 variants={textVariants}>Web developer and UI designer</motion.h1>
-            <motion.div className="buttons">
-                <motion.button variants={textVariants}>See The Latest Work</motion.button>
-                <motion.button variants={textVariants} className="btn">Contact Me</motion.button>
-            </motion.div>
-        </motion.div>
-        <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-          Writer Content Creator Influencer 
-        </motion.div>
-        <motion.div className="imageContainer">
-            <img src="/khaid.PNG" alt="wall pics" />
-        </motion.div>
+        <div className="hero-flex">
+            <div> 
+                <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">  
+                <motion.h3 variants={textVariants}>DAVID OYETUNDE</motion.h3>
+                <motion.h1 variants={textVariants}>Web developer and UI designer</motion.h1>
+                </motion.div>
+            </div>
+            <div>        
+                <motion.div className="buttons">
+                    <motion.button variants={textVariants}>See The Latest Work</motion.button>
+                    <motion.button variants={textVariants} className="btn" >Contact Me</motion.button>
+                </motion.div>
+            </div>
+        
+            <div>   
+            <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
+            Writer Content Creator Influencer 
+           <div><motion.div className="imageContainer">
+            <img src="/dav.JPG" alt="wall pics" />
+            </motion.div></div>
+       
+          
+        </motion.div></div>
+        </div>
     </div>
   )
 }
+
+

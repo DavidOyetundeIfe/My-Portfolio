@@ -10,7 +10,7 @@ const Sidebar = () => {
     const variants ={
 
         open: {
-            clipPath: "circle(1200px at 50px 50px)",
+            clipPath: "circle(900px at 50px 50px)",
             transition: {
                 type:"spring",
                 stiffness: 20,
@@ -18,7 +18,7 @@ const Sidebar = () => {
             
         },
         closed:  {
-            clipPath: "circle(30px at 50px 50px)",
+            clipPath: "circle(20px at 52px 50px)",
             transition: {
                 delay: 0.5,
                 type:"spring",
