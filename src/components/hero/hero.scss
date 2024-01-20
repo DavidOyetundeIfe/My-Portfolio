@@ -31,6 +31,38 @@
             flex-shrink: 1;
             
         }
+        /* media query */
+        @media (max-width: 540px) {
+            h3{
+                letter-spacing: 8px;
+            }
+            h1{
+                font-size: 25px;
+                line-height: 25px;
+                flex-shrink: 1;
+            }
+        }
+        @media (min-width: 541px) and (max-width: 900px){
+            h3{
+                letter-spacing: 10px;
+            }
+            h1{
+                font-size: 30px;
+                line-height: 30px;
+                flex-shrink: 1;
+            }
+        }
+        @media (min-width: 901px) and (max-width: 1024px){
+            h3{
+                letter-spacing: 10px;
+            }
+            h1{
+                font-size: 30px;
+                line-height: 30px;
+                flex-shrink: 1;
+            }
+        }
+        
     }
        
         .buttons{
@@ -55,6 +87,29 @@
                 border: none;
                 cursor: pointer;
                 flex-shrink: 1;
+            }
+
+            /* media query */
+            @media (max-width: 500px) {
+                button{
+                padding: 5px 5px;
+                border-radius: 4px;
+                }
+                .btn{
+                    padding: 5px 5px;
+                    border-radius: 4px; 
+                }
+            }
+
+            @media (min-width: 500px) and (max-width: 900px) {
+                button{
+                padding: 7px 7px;
+                border-radius: 6px;
+                }
+                .btn{
+                    padding: 7px 7px;
+                    border-radius: 6px; 
+                }
             }
       
         }

@@ -16,6 +16,16 @@
     .title{
         font-weight: bold;
         flex-shrink: 1;
+        span{
+            font-size: 15px;  
+        }
+    
+        /*media query*/
+        @media (max-width: 540px) {
+span{
+    font-size: 12px;
+}
+        }
     }
     .links{
         display: flex;
