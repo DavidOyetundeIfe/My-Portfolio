@@ -1,6 +1,9 @@
 import React from 'react';
 import {motion} from "framer-motion"
 import './hero.scss';
+import Contact from '../contact/Contact';
+import { ReactDOM } from 'react';
+
 
 const textVariants = {
     initial: {
@@ -18,17 +21,43 @@ const textVariants = {
     }
 }
 
+ function contactMe() {
+    return (
+        <div>
+            <Contact/>
+            {console.log("i am active!!")}
+        </div>
+   
+    )
+}
 
 const sliderVariants = {
     initial: {
         x: 0,
     },
     animate: {
-        x: "-220%",
+        x: "20%",
         transition: {
             repeat: Infinity,
             repeatType: "mirror",
-            duration: 20,
+            duration: 2,
+        }
+    }
+}
+
+const pictureVariants = {
+    initial: {
+        x: 0,
+        y: 0
+    },
+    animate: {
+        x: "5%",
+        y: "5%",
+       
+        transition: {
+            repeat: Infinity,
+            repeatType: "mirror",
+            duration: 1.4,
         }
     }
 }
@@ -47,22 +76,25 @@ export default function Hero() {
             <div>        
                 <motion.div className="buttons">
                     <motion.button variants={textVariants}>See The Latest Work</motion.button>
-                    <motion.button variants={textVariants} className="btn" >Contact Me</motion.button>
+                    <motion.button variants={textVariants} className="btn" onClick={contactMe} >Contact Me</motion.button>
+                </motion.div>
+            </div>
+            <div>   
+                <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
+                   <h3> Writer Content Creator Influencer </h3>
+                </motion.div>
+            </div>
+            <div>
+                <motion.div className="imageContainer" variants={pictureVariants} initial="initial" animate="animate">
+                <img src="/dav.JPG" alt="wall pics" />
                 </motion.div>
             </div>
         
-            <div>   
-            <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-            Writer Content Creator Influencer 
-           <div><motion.div className="imageContainer">
-            <img src="/dav.JPG" alt="wall pics" />
-            </motion.div></div>
-       
-          
-        </motion.div></div>
+
         </div>
     </div>
   )
 }
+
 
 

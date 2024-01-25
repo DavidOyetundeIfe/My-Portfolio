@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(36, 20, 36);
+    background-color: blueviolet;
     position: fixed;
     z-index: 10;
     border-radius: 50px;
@@ -24,6 +24,8 @@
         @media (max-width: 540px) {
 span{
     font-size: 12px;
+    color: black;
+
 }
         }
     }

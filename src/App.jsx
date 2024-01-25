@@ -6,6 +6,7 @@ import Parallax from "./components/parallax/Parallax";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Test from "./components/Test";
+import Contact from "./components/contact/Contact";
 
 export default function Card() {
     /*
@@ -29,7 +30,7 @@ export default function Card() {
              <section id="Portfolio"><Parallax type="portfolio"/></section>
              <section>Portfolio1</section>
              <section>Portfolio2</section>
-             <section id="Contact"><Parallax type="contact"/></section>
+             <section id="Contact"><Contact/></section>
              <section id="About"><About/></section>
     
    {/**
