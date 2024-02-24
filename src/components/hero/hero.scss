@@ -78,16 +78,31 @@
                 cursor: pointer;
                 flex-shrink: 1;
             }
+            button:hover{
+                background-color: white;
+                color: black;
+            }
+            button:active{
+                background-color: white;
+                color: pink;
+            }
             .btn{
                 padding: 10px 10px;
                 border-radius: 8px;
                 background-color: white;
-                color:rgb(36, 0, 36);
+                color: rgb(36, 0, 36);
                 margin-left: 10px;
                 border: none;
                 cursor: pointer;
                 flex-shrink: 1;
             }
+            .btn:hover{
+                background-color:transparent;
+                border-width: 1px;
+                color:white;
+                border-color: white;
+            }
+         
 
             /* media query */
             @media (max-width: 500px) {

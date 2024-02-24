@@ -70,7 +70,7 @@ export default function Hero() {
             <div> 
                 <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">  
                 <motion.h3 variants={textVariants}>DAVID OYETUNDE</motion.h3>
-                <motion.h1 variants={textVariants}>Web developer and UI designer</motion.h1>
+                <motion.h1 variants={textVariants}>SOFTWARE DEVELOPER</motion.h1>
                 </motion.div>
             </div>
             <div>        
