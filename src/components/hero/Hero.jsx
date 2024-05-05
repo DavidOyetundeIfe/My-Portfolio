@@ -79,16 +79,11 @@ export default function Hero() {
                     <motion.button variants={textVariants} className="btn" onClick={contactMe} >Contact Me</motion.button>
                 </motion.div>
             </div>
-            <div>   
-                <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-                   <h3> Writer Content Creator Influencer </h3>
-                </motion.div>
-            </div>
+          
             <div>
-                <motion.div className="imageContainer" variants={pictureVariants} initial="initial" animate="animate">
-                <img src="/dav.JPG" alt="wall pics" />
-                </motion.div>
+                <motion.button className="resume-button">View Resume </motion.button>
             </div>
+      
         
 
         </div>
@@ -97,4 +92,14 @@ export default function Hero() {
 }
 
 
+//<motion.div className="imageContainer" variants={pictureVariants} initial="initial" animate="animate">
+//<img src="/dav.JPG" alt="wall pics" />
+//</motion.div>
+//</div>
 
+
+//<div>   
+//<motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
+//   <h3> Writer Content Creator Influencer </h3>
+//</motion.div>
+//</div>

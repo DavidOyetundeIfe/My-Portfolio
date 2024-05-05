@@ -11,9 +11,9 @@ const Navbar = () => {
             <motion.span initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} transition={{duration:0.5}}>DO</motion.span>
             </div>
             <div className="links">
-                <div><a href="#" ><img src="./facebook.PNG" alt="facebook link"/></a></div>
+                <div><a href="#" ><img src="./linkedin.png" alt="linkedin link"/></a></div>
                 <div><a href="#" ><img src="./twitter.PNG" alt="twitter link"/></a></div>
-                <div><a href="#" ><img src="./youtube.PNG" alt="youtube link"/></a></div>
+                <div><a href="#" ><img src="./github.PNG" alt="github link"/></a></div>
                 <div><a href="#" ><img src="./watsapp.PNG" alt="watsapp link"/></a></div>            
             </div>
         </div>

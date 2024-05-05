@@ -7,6 +7,7 @@
     
     
     .hero-flex{
+        margin-top: 60px;
         display: flex;
         flex-direction: column;
     
@@ -92,7 +93,6 @@
                 background-color: white;
                 color: rgb(36, 0, 36);
                 margin-left: 10px;
-                border: none;
                 cursor: pointer;
                 flex-shrink: 1;
             }
@@ -179,6 +179,17 @@
         }
      }
  
-  
+  .resume-button{
+    margin-top: 300px;
+    margin-left: 600px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    flex-shrink: 1;
+  }
 
 }
