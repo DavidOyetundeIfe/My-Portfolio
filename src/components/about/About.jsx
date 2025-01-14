@@ -6,27 +6,6 @@ export default function About() {
   return (
     <div className="about">
         <div className="intro">   
-        <p>David is a Prolific React developer with 1 year experience and a solid foundation in software engineering and software development.Supreme and responsible with a massive passion for great results.A good team worker with great communication skills,a fast learner and excellent in all endeavors. I am passionate about staying up-to-date with the latest trends and new practice in React development,subsequently seeking opportunities to boost my skills and contribute to innovative projects.Through collaborative teamwork and effective communication, I strive to deliver high-quality solutions that meet both the technical requirements and user experience.Furthermore, I am deeply committed to continuous learning and professional development,actively staying abreast of emerging technologies and evolving best practices within the React ecosystem. This dedication to ongoing growth enables me to deliver cutting edge solutions that not only meet but exceed the expectations of the clients and end-users alike. In summary, as a React developer, I combine technical expertise, strategic insight, and a passion for innovation to deliver transformative digital experience that resonate with audiences and drive business objectives forward.</p>
-        <p>TECHNICAL SKILLS</p>
-<p>Languages: JavaScript, TypeScript</p>
-<p>Libraries: React.Js</p>
-<p>Frameworks: Next.Js</p>
-<p>Tools: Git, Github, NPM, VsCode</p>
-<p>Others: Microsoft Office Suite (Excel, PowerPoint, Word)</p>
-
-     <p>EDUCATION</p>
-<p>The University of Lagos | Lagos, Nigeria</p>
-<p>2021 – till date </p> 
-<p>Bachelor of Science in Physics | CGPA 4.6/5.0  </p>   
-
-<p>EXPERIENCE/PROJECT</p>
-<p>•	Notes Web App (React.Js , CSS)•	Travel Locations Web App (ReactJs , CSS)•	Sign-In Page (React.Js , CSS)•	Tenzies Game Web App (ReactJs , CSS)•	Quiz Web App (React.Js , CSS)•	Profile card Web App (React.Js , CSS)•	Joke Generator Web App (React.Js , CSS)</p>
-
-<p>During my academic studies and personal exploration, I dedicated significant time to self-directed learning and practical application of front-end development principles. Through a series of personal projects,I honed my skills in HTML, CSS, and JavaScript, and gained familiarity with frameworks such as React.js. These projects not only provided me with hands-on experience but also showcased my ability to independently solve problems and create functional web interfaces. While I haven't had formal work experience in front-end development, I actively sought opportunities to apply my skills in real-world contexts.Through volunteer work or community involvement, I contributed to initiatives that required web development expertise, such as designing and maintaining websites for local organizations or assisting with tech-related tasks for non-profit projects. These experiences allowed me to apply my technical skills in practical settings while making a positive impact within my community.</p>
-
-<p>LICENSES AND CERTIFICATES</p>
-<p>•	JavaScript (Udemy)•	Complete ReactJS (Udemy)•	Introduction to Computer Science (Udemy) •	SQL programming Essentials (Udemy) •	Html, CSS and JavaScript ( Udemy)</p>
-
         </div>
     </div>
   )

@@ -8,7 +8,7 @@ const Navbar = () => {
     return <div className="navbar">
             <div className="side-bar"><Sidebar/></div>
             <div className="title">
-            <motion.span initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} transition={{duration:0.5}}>DO</motion.span>
+            <motion.span initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} transition={{duration:0.5}}></motion.span>
             </div>
             <div className="links">
                 <div><a href="#" ><img src="./linkedin.png" alt="linkedin link"/></a></div>
@@ -20,3 +20,4 @@ const Navbar = () => {
 }
 
 export default Navbar;
+

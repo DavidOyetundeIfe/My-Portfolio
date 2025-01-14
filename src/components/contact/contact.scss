@@ -1,0 +1,19 @@
+.connect{
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    .intro{
+      p{
+        text-decoration: none;
+        text-align: justify;
+        font-size: 15px;
+        margin-left: 65px;
+        margin-right: 65px;
+        flex-shrink: 1;
+      }
+}
+}

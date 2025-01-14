@@ -28,13 +28,13 @@ const itemVariants = {
 
 
 export const Links = () => {
-const items = ["HomePage", "Services","Resume"];
+const items = ["HomePage", "Projects","Resume","Connect"];
 
   return ( 
     <motion.div className="links" variants={variants}>
         {items.map((item) => (<motion.a href={`#${item}`} key={item} variants={itemVariants} whiteHover={{scale:1.1}} whileTap={{scale:0.95}}>
             {item}
-        </motion.a>))}
+</motion.a>))}
     </motion.div>
   );
 }

@@ -2,7 +2,19 @@ import React from 'react';
 import {motion} from "framer-motion"
 import './hero.scss';
 import Contact from '../contact/Contact';
-import { ReactDOM } from 'react';
+import About from '../about/About';
+import { Links } from '../sidebar/links/Links';
+import Services from '../services/Services';
+
+
+function fanMe() {
+    const items = ["Services","Resume"];
+    <motion.div >
+    {items.map((item) => (<motion.a href={`#${item}`} key={item} >
+        {item}</motion.a>))}
+    </motion.div>
+}
+
 
 
 const textVariants = {
@@ -62,6 +74,9 @@ const pictureVariants = {
     }
 }
 
+const itemResume = ("Resume")
+const itemContact = ("Connect")
+const itemProjects = ("Projects")
 
 export default function Hero() {
   return (
@@ -75,13 +90,13 @@ export default function Hero() {
             </div>
             <div>        
                 <motion.div className="buttons">
-                    <motion.button variants={textVariants}>See The Latest Work</motion.button>
-                    <motion.button variants={textVariants} className="btn" onClick={contactMe} >Contact Me</motion.button>
+                    <motion.button variants={textVariants}><a href={`#${itemProjects}`}>Projects</a></motion.button>
+                    <motion.button variants={textVariants} className="btn">< a href={`#${itemContact}`}>Connect</a></motion.button>
                 </motion.div>
             </div>
           
             <div>
-                <motion.button className="resume-button">View Resume </motion.button>
+                <motion.button className="resume-button" ><a href={`#${itemResume}`}>View Resume</a></motion.button>
             </div>
       
         

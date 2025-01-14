@@ -23,8 +23,9 @@ export default function Card() {
                 <Navbar/>
                 <Hero/>
                 </section>
-             <section id="Services"><Services/></section>
+             <section id="Projects"><Services/></section>
              <section id="Resume"><About/></section>
+             <section id="Connect"><Contact/></section>
     
    {/**
     <Test/>
