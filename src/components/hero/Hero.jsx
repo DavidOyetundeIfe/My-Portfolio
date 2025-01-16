@@ -84,14 +84,14 @@ export default function Hero() {
         <div className="hero-flex">
             <div> 
                 <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">  
-                <motion.h3 variants={textVariants}>DAVID OYETUNDE</motion.h3>
-                <motion.h1 variants={textVariants}>SOFTWARE DEVELOPER</motion.h1>
+                <motion.h3 variants={textVariants}> Hey, you are welcome. I am DAVID OYETUNDE</motion.h3>
+                <motion.h1 variants={textVariants}>A Physics Undergraduate and a Front-end Dev.</motion.h1>
                 </motion.div>
             </div>
             <div>        
                 <motion.div className="buttons">
                     <motion.button variants={textVariants}><a href={`#${itemProjects}`}>Projects</a></motion.button>
-                    <motion.button variants={textVariants} className="btn">< a href={`#${itemContact}`}>Connect</a></motion.button>
+                    <motion.button variants={textVariants} className="btn"><a href={`#${itemContact}`}>Connect</a></motion.button>
                 </motion.div>
             </div>
           
