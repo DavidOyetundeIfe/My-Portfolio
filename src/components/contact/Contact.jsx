@@ -1,12 +1,16 @@
 import React from 'react'
 import "./contact.scss"
-
+import Navbar from "../navbar/Navbar";
+import Hero from "../hero/Hero";
 
 export default function Contact() {
   return (
     <div className="connect">
-        <h4>Phone number : 09138447372</h4>
-        <div className="intro"><p>davido</p></div>
+          <section id="Connect">
+                <Navbar/>
+                <p>this is were you connect</p>
+               
+                </section>
     </div>
   )
 }

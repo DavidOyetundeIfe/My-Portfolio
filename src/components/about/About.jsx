@@ -1,11 +1,19 @@
 import React from "react";
 import './about.scss'
 import pdfFile from  './davidCv.pdf'
+import Navbar from "../navbar/Navbar";
+import Hero from "../hero/Hero";
 
 export default function About() {
   return (
     <div className="about">
-        <div className="intro">   
+        <div className="intro">  
+          <section id="Resume">
+          <Navbar/>
+          <p>this is my resume</p>
+        
+            </section> 
+         
         </div>
     </div>
   )
